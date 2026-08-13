@@ -1,0 +1,21 @@
+{
+  "name": "workspace-shk",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation suite for Swag Labs (Web UI) and JSONPlaceholder (API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test:headed": "playwright test --project=ui --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "typescript": "7.0.2"
+  }
+}
