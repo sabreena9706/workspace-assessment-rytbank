@@ -1,4 +1,4 @@
-# QA Technical Test Assignment
+# QA Technical Test Assignment - Sabreenah Salim
 
 Automated Web UI and API test suites written in **TypeScript** with **Playwright**.
 
